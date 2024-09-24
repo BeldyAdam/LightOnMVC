@@ -13,6 +13,8 @@ export default class Controller{
     #esemenykezelo(){
         $(window).on("kattintas", (event)=>{
             this.model.lampaKapcsol(event.detail);
+            this.model.kornyezoElemek(event.detail);
+            this.model.ellenorzes()
             new Palya(this.model.getList(), this.jatekTer);
         });
     }

@@ -1,3 +1,5 @@
+import Modell from "../modell/LOModell.js";
+
 export default class Lampa{
     #allapot;
     #index;
@@ -36,6 +38,4 @@ export default class Lampa{
             window.dispatchEvent(e);
         });
     }
-
-
 }
