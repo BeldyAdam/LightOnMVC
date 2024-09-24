@@ -1,0 +1,31 @@
+.main{
+    text-align: center;
+}
+
+.card{
+    background-color: rgba(134, 106, 106, 0.496);
+}
+
+#box{
+	float: left;
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	font-size: 85px;
+	text-align: center;
+	cursor: pointer;
+    line-height: 90px; 
+    border-radius: 50%;
+/*     background-color: red; */
+  }
+
+  .jatekter{
+    width: 330px;
+	overflow: hidden;
+	margin: 50px auto 0 auto;
+  }
+
+  .felkapcs{
+    background-color: rgb(213, 232, 75);
+  }
+
